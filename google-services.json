@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100491134073",
+    "project_id": "moso-a54de",
+    "storage_bucket": "moso-a54de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100491134073:android:54de17d0b1384acd79c0a8",
+        "android_client_info": {
+          "package_name": "com.example.mealtracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaiObDFmNmvBvM2xLgT9iw6jJEpJT3d_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

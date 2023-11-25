@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/android_sma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFE5DA"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:scaleType="fitEnd"
+            android:layout_width="116dp"
+            android:layout_height="122dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/android_sma"
+            android:layout_marginLeft="299dp"
+            android:layout_marginTop="609dp"
+            android:clipToOutline="true"
+            app:srcCompat="@drawable/kiwi"
+            tools:ignore="NotSibling" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/lettuce" />
+
+
+        <RelativeLayout
+            android:id="@+id/rectangle_4"
+            android:layout_width="369dp"
+            android:layout_height="652dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/rectangle_4"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginBottom="40dp"
+                android:hint="@string/select"
+                tools:ignore="MissingConstraints">
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_complete_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginBottom="40dp"
+                android:hint="@string/select2"
+                tools:ignore="MissingConstraints">
+
+                <AutoCompleteTextView
+                    android:id="@+id/auto_complete_txt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/input1title"
+                android:layout_width="283dp"
+                android:layout_height="101dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="42dp"
+                android:gravity="top"
+                android:text="@string/input1title"
+                android:textAppearance="@style/input1title" />
+
+            <TextView
+                android:id="@+id/foodis"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="270dp"
+                android:gravity="top"
+                android:text="@string/foodis"
+                android:textAppearance="@style/foodis" />
+
+            <TextView
+                android:id="@+id/foodplaceis"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="160dp"
+                android:gravity="top"
+                android:text="@string/foodplaceis"
+                android:textAppearance="@style/foodis" />
+
+            <TextView
+                android:id="@+id/foodphoto"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="380dp"
+                android:gravity="top"
+                android:text="@string/foodphoto"
+                android:textAppearance="@style/foodis" />
+
+            <Button
+                android:id="@+id/selectphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/photobutton"
+                android:text="음식 사진 첨부" />
+
+            <Button
+                android:id="@+id/uploadphoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/photobutton"
+                android:text="업로드" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/photobutton"
+                android:text="다음" />
+
+            <ImageView
+            android:id="@+id/x"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            app:srcCompat="@drawable/x" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

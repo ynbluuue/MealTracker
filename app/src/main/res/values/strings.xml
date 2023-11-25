@@ -1,0 +1,24 @@
+<resources>
+    <!-- strings.xml -->
+    <string name="app_name">"My App"</string>
+    <string name="some_id">식사 입력하기</string>
+    <string name="some_id2">식사 보여주기</string>
+    <string name="some_id3">식사 분석하기</string>
+    <string name="dongguk">DONGGUK</string>
+    <string name="meal_tracke">MEAL TRACKER</string>
+    <string name="welcome">환영합니다!</string>
+    <string name="input1title"><b>식사를</b>\n<b>입력해주세요</b></string>
+    <string name="foodis"><b>식사는</b></string>
+    <string name="select">식사를 선택하십시오.</string>
+    <string name="foodplaceis"><b>학식 장소는</b></string>
+    <string name="select2">장소를 선택하십시오.</string>
+    <string name="foodphoto"><b>음식 사진 첨부</b></string>
+    <string name="phototext">음식 사진 첨부</string>
+    <string name="foodname"><b>음식/음료 이름은</b></string>
+    <string name="foodreview"><b>음식/음료에 대한 평가는</b></string>
+    <string name="date"><b>날짜는</b></string>
+    <string name="price"><b>가격은</b></string>
+    <string name="show2title"><b>해당 식사의</b>\n<b>정보입니다.</b></string>
+    <string name="calorieis"><b>칼로리는</b></string>
+</resources>
+

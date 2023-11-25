@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/android_sma"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFE5DA"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:scaleType="fitEnd"
+            android:layout_width="116dp"
+            android:layout_height="122dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/android_sma"
+            android:layout_marginLeft="299dp"
+            android:layout_marginTop="609dp"
+            android:clipToOutline="true"
+            app:srcCompat="@drawable/kiwi"
+            tools:ignore="NotSibling" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/lettuce" />
+
+        <RelativeLayout
+            android:id="@+id/rectangle_4"
+            android:layout_width="369dp"
+            android:layout_height="652dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/rectangle_4"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/input1title"
+                android:layout_width="283dp"
+                android:layout_height="101dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="42dp"
+                android:gravity="top"
+                android:text="@string/input1title"
+                android:textAppearance="@style/input1title" />
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="350dp"
+                android:gravity="top"
+                android:text="@string/date"
+                android:textAppearance="@style/foodis" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="114dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="440dp"
+                android:gravity="top"
+                android:text="@string/price"
+                android:textAppearance="@style/foodis" />
+
+            <View
+                android:id="@+id/rectangle_9"
+                android:layout_width="320dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/foodname" />
+
+            <EditText
+                android:id="@+id/text_foodprice"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="475dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLength="20"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/foodname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="160dp"
+                android:gravity="top"
+                android:text="@string/foodname"
+                android:textAppearance="@style/foodis" />
+
+
+            <View
+                android:id="@+id/rectangle_8"
+                android:layout_width="320dp"
+                android:layout_height="33dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="189dp"
+                android:background="@drawable/foodname" />
+
+            <EditText
+                android:id="@+id/text_foodname"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="194dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLength="20"
+                android:text="" />
+
+
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/foodname" />
+
+            <EditText
+                android:id="@+id/text_foodreview"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="275dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:scrollHorizontally="false"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/foodreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="240dp"
+                android:gravity="top"
+                android:text="@string/foodreview"
+                android:textAppearance="@style/foodis" />
+
+            <View
+                android:id="@+id/pickdate"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="379dp"
+                android:background="@drawable/foodname"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <TextView
+                android:id="@+id/foodDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390dp"
+                android:text="날짜를 선택하세요."
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.08"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.125" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/photobutton"
+                android:text="확인" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/photobutton"
+                android:text="뒤로" />
+
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/x" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

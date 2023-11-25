@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="some_id">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="dongguk">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="meal_tracke">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="welcome">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="input1title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="foodis">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#2E000000</item>
+    </style>
+    <style name="phototext">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#80000000</item>
+    </style>
+    <style name="CalendarHeaderTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#80000000</item>
+    </style>
+    <style name="CalendarDateTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#80000000</item>
+    </style>
+    <style name="foodis2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>
