@@ -100,10 +100,11 @@ public class Input1 extends AppCompatActivity {
             }
         });
 
-        //다음 클릭 -> Input2 페이지로 이동
+
         foodType = findViewById(R.id.auto_complete_txt);
         foodPlace = findViewById(R.id.auto_complete_txt2);
 
+        //다음 클릭 -> Input2 페이지로 이동
         next_page = findViewById(R.id.next);
         next_page.setOnClickListener(new View.OnClickListener() {
             @Override

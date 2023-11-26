@@ -119,6 +119,7 @@ public class Input2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Input2.this, Input1.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }
         });
