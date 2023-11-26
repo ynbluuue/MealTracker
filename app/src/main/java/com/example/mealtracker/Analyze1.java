@@ -55,7 +55,7 @@ public class Analyze1 extends AppCompatActivity {
 
         //제목 설정
         title = findViewById(R.id.title);
-        title.setText(Html.fromHtml("<b>" + currentMonth.substring(0, 4) + "년 " + currentMonth.substring(5, 7) + "월의<br>식사 분석입니다</b>"));
+        title.setText(Html.fromHtml("<b>" + currentMonth.substring(0, 4) + "년 " + currentMonth.substring(5, 7) + "월<br>식사 분석입니다</b>"));
         Log.d(message, "제목은: " + title.getText());
 
         calorie = findViewById(R.id.calorie);
@@ -153,7 +153,7 @@ public class Analyze1 extends AppCompatActivity {
                     // 모든 데이터를 확인했을 때 처리
                     if (counter.incrementAndGet() == foodCount) {
                         String cal = String.format(Locale.getDefault(), "%d kcal", totalCal);
-                        calorie.setText(Html.fromHtml("<b>총합 " + cal + "</b>"));
+                        calorie.setText(Html.fromHtml("<b>" + cal + "</b>"));
                         Log.d(message, "총 칼로리는 " + calorie.getText());
                     }
                 }
@@ -196,10 +196,10 @@ public class Analyze1 extends AppCompatActivity {
 
                     // 모든 데이터를 확인했을 때 처리
                     if (counter.incrementAndGet() == foodCount) {
-                        breakfast.setText(Html.fromHtml("<b>조식 " + breakFastCost.toString() + " 원</b>"));
-                        lunch.setText(Html.fromHtml("<b>중식 " + lunchCost.toString() + " 원</b>"));
-                        dinner.setText(Html.fromHtml("<b>석식 " + dinnerCost.toString() + " 원</b>"));
-                        drinks.setText(Html.fromHtml("<b>음료 " + drinksCost.toString() + " 원</b>"));
+                        breakfast.setText(Html.fromHtml("<b>" + breakFastCost.toString() + " 원</b>"));
+                        lunch.setText(Html.fromHtml("<b>" + lunchCost.toString() + " 원</b>"));
+                        dinner.setText(Html.fromHtml("<b>" + dinnerCost.toString() + " 원</b>"));
+                        drinks.setText(Html.fromHtml("<b>" + drinksCost.toString() + " 원</b>"));
                     }
                 }
 

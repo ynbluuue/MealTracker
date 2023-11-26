@@ -74,110 +74,174 @@
         <RelativeLayout
             android:id="@+id/rectangle_5"
             android:layout_width="330dp"
-            android:layout_height="390dp"
+            android:layout_height="380dp"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="50dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="50dp"
             android:background="@drawable/calendarrec"
             android:orientation="horizontal">
-
             <TextView
-                android:id="@+id/calorie"
-                android:layout_width="220dp"
+                android:id="@+id/calorie1"
+                android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="85dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="35dp"
+                android:gravity="top"
+                android:text="총합"
+                android:textStyle="bold"
+                android:textAppearance="@style/analyze" />
+
+            <TextView
+                android:id="@+id/calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="35dp"
                 android:gravity="top"
                 android:text=""
                 android:textAppearance="@style/analyze" />
 
             <TextView
-                android:id="@+id/breakfast"
-                android:layout_width="220dp"
+                android:id="@+id/breakfast1"
+                android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="85dp"
+                android:layout_marginLeft="75dp"
                 android:layout_marginTop="105dp"
                 android:gravity="top"
-                android:text="조식 비용은"
+                android:text="조식"
+                android:textStyle="bold"
+                android:textAppearance="@style/analyze" />
+
+            <TextView
+                android:id="@+id/breakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="105dp"
+                android:gravity="top"
+                android:text=""
+                android:textAppearance="@style/analyze" />
+
+            <TextView
+                android:id="@+id/lunch1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="175dp"
+                android:gravity="top"
+                android:text="중식"
+                android:textStyle="bold"
                 android:textAppearance="@style/analyze" />
 
             <TextView
                 android:id="@+id/lunch"
-                android:layout_width="220dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="175dp"
+                android:gravity="top"
+                android:text=""
+                android:textAppearance="@style/analyze" />
+
+            <TextView
+                android:id="@+id/dinner1"
+                android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="85dp"
-                android:layout_marginTop="175dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="245dp"
                 android:gravity="top"
-                android:text="중식 비용은"
+                android:text="석식"
+                android:textStyle="bold"
                 android:textAppearance="@style/analyze" />
 
             <TextView
                 android:id="@+id/dinner"
-                android:layout_width="220dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="245dp"
+                android:gravity="top"
+                android:text=""
+                android:textAppearance="@style/analyze" />
+
+            <TextView
+                android:id="@+id/drinks1"
+                android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="85dp"
-                android:layout_marginTop="245dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="315dp"
                 android:gravity="top"
-                android:text="석식 비용은"
+                android:text="음료"
+                android:textStyle="bold"
                 android:textAppearance="@style/analyze" />
 
             <TextView
                 android:id="@+id/drinks"
-                android:layout_width="220dp"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="85dp"
+                android:layout_marginRight="25dp"
                 android:layout_marginTop="315dp"
                 android:gravity="top"
-                android:text="음료 비용은"
+                android:text=""
                 android:textAppearance="@style/analyze" />
 
             <ImageView
                 android:id="@+id/fire1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="30dp"
                 app:srcCompat="@drawable/fire" />
 
             <ImageView
                 android:id="@+id/fire2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="100dp"
                 app:srcCompat="@drawable/fire" />
 
             <ImageView
                 android:id="@+id/fire3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="170dp"
                 app:srcCompat="@drawable/fire" />
 
             <ImageView
                 android:id="@+id/fire4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="240dp"
                 app:srcCompat="@drawable/fire" />
 
             <ImageView
                 android:id="@+id/fire5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="310dp"
                 app:srcCompat="@drawable/fire" />
